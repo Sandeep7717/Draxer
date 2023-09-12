@@ -1,0 +1,71 @@
+.header {
+    background: var(--white);
+ 
+    width: 100%;
+    overflow: hidden;
+
+    // &.fixed-header{
+    //     position: fixed;
+    //     width: 100%;
+    //     top: 0;
+    //     box-shadow: 0px 0px 30px 0px rgba(33, 41, 65, 0.1);
+    //     z-index: 999;
+    //     width: 100%;
+    //     border-bottom: none;
+    // }
+
+
+    .menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 0;
+
+
+
+        .logo {
+            width: 10%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .humburger-icon {
+            display: none;
+        }
+
+        .navbar {
+            >ul {
+                display: flex;
+                align-items: center;
+
+
+
+                >li {
+                    position: relative;
+                    padding: 12px 15px;
+
+
+                    a {
+                        color: var(--brand-blue);
+                        transition: 0.5s ease all;
+                        font-size: 14px;
+
+                        &:hover {
+
+                            color: var(--brand-primary);
+
+                        }
+
+                        img {
+                            width: 24px;
+                        }
+                    }
+
+
+                }
+            }
+        }
+    }
+}

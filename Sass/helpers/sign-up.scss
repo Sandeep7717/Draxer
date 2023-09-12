@@ -1,0 +1,95 @@
+.sign-up {
+    background: var(--brand-primary);
+    position: relative;
+    z-index: 1;
+
+
+    .dot {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    .all-up-pannel {
+        display: flex;
+        align-items: center;
+
+        .left-up {
+
+            width: 8%;
+
+            img {
+                width: 100%;
+            }
+
+        }
+
+        .right-up {
+            margin-left: 30px;
+            padding: 50px;
+
+            h2 {
+                font-size: 26px;
+                font-weight: 500;
+                color: var(--brand-blue);
+                position: relative;
+                &::after {
+                    border-top-style: solid;
+                    border-width: 3px;
+                    color: var(--brand-blue);
+                    width: 75px;
+                    position: absolute;
+                    bottom: -10px;
+                    content: "";
+                    left: 0;
+                }
+            }
+
+       
+
+            .input-all {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .input {
+                    margin: 20px 40px 20px 0;
+
+                    input {
+                        width: 350px;
+                        height: 40px;
+                        padding: 10px;
+                        background: transparent;
+                        border: 1px solid var(--brand-blue);
+                        border-radius: 4px;
+                        outline: none;
+
+                        &::placeholder {
+                            color: var(--brand-blue);
+                        }
+                    }
+
+                }
+
+                .button-input {
+                    a {
+                        background: var(--brand-blue);
+                        color: var(--white);
+                        padding: 12px 30px;
+                        border-radius: 4px;
+                        font-size: 14px;
+                        transition: 0.9s ease all;
+
+                        &:hover {
+                            color: var(--brand-blue);
+                            background-color: var(--white);
+
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}

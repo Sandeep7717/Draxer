@@ -1,0 +1,88 @@
+.car-video {
+    padding: 50px 0;
+
+    .all-car {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .left-car {
+            width: 50%;
+            position: relative;
+            .car{
+                width: 600px;
+            }
+
+            img {
+                width: 100%;
+            }
+
+            .play {
+                position: absolute;
+                top: 200px;
+                left: 290px;
+                width: 10%;
+            }
+        }
+
+        .right-car {
+            margin-left: 50px;
+
+            h2 {
+                font-size: 26px;
+                font-weight: 500;
+                color: var(--brand-primary);
+                &::after {
+                    border-top-style: solid;
+                    border-width: 3px;
+                    color: var(--brand-blue);
+                    width: 75px;
+                    position: absolute;
+                    bottom: -5px;
+                    content: "";
+                    left: 0;
+                }
+
+            }
+
+      
+
+            span {
+                font-size: 14px;
+                color: var(--brand-light);
+                display: inline-block;
+                width: 66%;
+                line-height: 24px;
+            }
+
+            .right-box {
+                margin-left: 40px;
+
+                h3 {
+                    font-size: 16px;
+                    color: var(--brand-blue-light);
+                    margin: 20px 0;
+                    cursor: pointer;
+                    transition: 0.9s ease all;
+
+                    &:hover {
+                        color: var(--brand-primary);
+                    }
+                }
+
+                p {
+                    font-size: 14px;
+                    color: var(--brand-light);
+                    width: 72%;
+                    line-height: 24px;
+                }
+            }
+
+
+        }
+    }
+    .line{
+        border: 1px solid var(--brand-line);
+        margin: 50px 0 0 0;
+    }
+}

@@ -1,0 +1,305 @@
+@media screen and (max-width:767px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .menu {
+        .logo {
+            width: 33%;
+
+        }
+
+        .humburger-icon {
+            display: block;
+        }
+
+        .navbar {
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: #fff;
+            width: 75%;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+            height: 100%;
+            z-index: 99;
+            display: none;
+
+            >ul {
+                align-items: start;
+                flex-direction: column;
+
+                li {
+                    padding: 15px 30px;
+                }
+            }
+
+        }
+    }
+
+    .slider {
+
+
+        .all-pannel {
+            display: block;
+
+            margin: 100px 0;
+            position: relative;
+
+            .left-pannel {
+                h2 {
+
+                    font-size: 28px;
+                    width: 100%;
+                    line-height: 44px;
+                }
+
+                p {
+                    width: 83%;
+                }
+            }
+
+            .right-pannel {
+                img {
+
+                    margin: 30px 0;
+                    width: 91%;
+                }
+            }
+        }
+    }
+
+    .sign-up {
+        padding: 50px 0;
+
+        .all-up-pannel {
+            display: block;
+
+            .left-up {
+                width: 26%;
+            }
+
+            .right-up {
+                margin: 0;
+                padding: 0;
+
+                .input-all {
+                    display: block;
+
+                    .input {
+                        margin: 25px 40px 25px 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .our-service {
+        ul {
+            display: block;
+
+            li {
+                width: 100%;
+                display: block;
+
+                .pannel {
+                    display: block;
+
+                    .left-pannel {
+                        width: 20%;
+                    }
+
+                    .right-pannel {
+                        margin: 10px 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .our-works {
+        ul {
+
+            display: block;
+
+            li {
+                width: 100%;
+            }
+        }
+    }
+
+    .best {
+        .all-best {
+            display: block;
+
+            .left-best {
+                h2 {
+                    line-height: 36px;
+                    width: 90%;
+
+                }
+
+                span {
+                    width: 90%;
+                }
+
+                p {
+                    width: 88%;
+                }
+
+                ul {
+                    display: block;
+
+                    li {
+                        width: 100%;
+                        margin: 10px 0;
+                    }
+                }
+            }
+
+            .right-best {
+                width: 87%;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .car-video {
+        .all-car {
+            display: block;
+
+            .left-car {
+                width: 100%;
+
+                .play {
+                    top: 188px;
+                    left: 188px;
+                    width: 26%;
+                }
+            }
+
+            .right-car {
+                margin: 0;
+
+                span {
+                    width: 89%;
+                }
+
+                p {
+                    margin: 5px 0;
+                    width: 89%;
+                }
+            }
+        }
+    }
+
+    .our-special {
+        h2 {
+            text-align: center;
+
+            &::after {
+                left: 150px;
+            }
+        }
+
+        p {
+            text-align: center;
+            margin: 20px auto;
+            width: 90%;
+        }
+
+        ul {
+            display: block;
+
+            li {
+                margin: 10px 0;
+            }
+        }
+    }
+
+    .map {
+        .all-map {
+            display: block;
+
+            .left-map {
+                iframe {
+
+                    width: 385px;
+                }
+            }
+
+            .right-map {
+                margin: 30px 0;
+
+                .input {
+                    input {
+                        width: 100%;
+                    }
+                }
+
+                textarea {
+                    width: 89%;
+                }
+            }
+        }
+    }
+
+    .footer {
+        .top-footer {
+            display: block;
+            justify-items: start;
+
+            .left-footer {
+                img {
+                    width: 100px;
+                }
+            }
+
+            .right-footer {
+                ul {
+                    display: block;
+
+                    li {
+                        margin: 20px 0;
+                    }
+                }
+            }
+        }
+
+        .down-footer {
+            .all-footer {
+                display: block;
+
+                .logo-footer {
+                    p {
+                        width: 100%;
+                    }
+                }
+
+                .center-footer {
+                    ul {
+                        display: block;
+
+                        li {
+                            h3 {
+                                margin: 20px 0;
+                            }
+                        }
+                    }
+                }
+
+                .subscribe-footer {
+                    h3{
+                        margin: 20px 0;
+                    }
+                }
+            }
+
+
+
+        }
+    }
+}

@@ -1,0 +1,103 @@
+.our-works {
+    padding: 50px 0;
+
+    h2 {
+        font-size: 26px;
+        font-weight: 500;
+        color: var(--brand-primary);
+        position: relative;
+
+        &::after {
+            border-top-style: solid;
+            border-width: 3px;
+            color: var(--brand-blue);
+            width: 75px;
+            position: absolute;
+            bottom: -10px;
+            content: "";
+            left: 0;
+        }
+    }
+
+
+
+    ul {
+
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        margin: 40px 0;
+
+        li {
+            width: calc(33.33% - 20px);
+            margin: 0 20px 20px 0;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+            transition: 0.9s ease all;
+
+
+            &:hover .icon-one {
+                display: block;
+
+            }
+
+            .overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                background: rgb(0, 0, 0, 0.3);
+                width: 100%;
+                height: 99%;
+            }
+
+            .img-one {
+                width: 100%;
+                display: block;
+
+
+
+                img {
+                    width: 100%;
+                }
+
+            }
+
+            .icon-one {
+                position: absolute;
+                width: 5%;
+                top: 200px;
+                left: 195px;
+                z-index: 9999;
+                display: none;
+
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .button-all {
+        margin: 20px 0;
+        text-align: center;
+
+        a {
+            border: 1px solid var(--brand-primary);
+            color: var(--brand-primary);
+            font-size: 14px;
+            padding: 10px 20px;
+            border-radius: 4px;
+            transition: 0.5s ease all;
+
+            &:hover {
+                border: 1px solid var(--brand-primary);
+                color: var(--white);
+                background: var(--brand-primary);
+
+            }
+        }
+    }
+}

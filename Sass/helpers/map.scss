@@ -1,0 +1,86 @@
+.map {
+    .all-map {
+        display: flex;
+        align-items: center;
+
+        .right-map {
+            margin-left: 50px;
+
+            h2 {
+                font-size: 26px;
+                font-weight: 500;
+                color: var(--brand-primary);
+                position: relative;
+                &::after {
+                    border-top-style: solid;
+                    border-width: 3px;
+                    color: var(--brand-blue);
+                    width: 75px;
+                    position: absolute;
+                    bottom: -10px;
+                    content: "";
+                    left: 0;
+                }
+
+            }
+
+
+            p {
+                font-size: 14px;
+                width: 91%;
+                line-height: 24px;
+                margin: 30px 0;
+                color: var(--brand-light);
+            }
+
+            .input {
+                margin: 20px 40px 20px 0;
+
+                input {
+                    width: 526px;
+                    height: 40px;
+                    padding: 20px;
+                    background: transparent;
+                    border: 1px solid var(--brand-light);
+                    border-radius: 4px;
+                    outline: none;
+
+                    &::placeholder {
+                        color: var(--brand-light);
+                    }
+                }
+
+            }
+
+            textarea {
+                width: 524px;
+                height: 123px;
+                padding: 20px;
+                border: 1px solid var(--brand-light);
+                border-radius: 4px;
+                resize: none;
+                outline: none;
+            }
+
+            .send {
+                margin: 50px 0;
+
+                a {
+                    font-size: 14px;
+                    color: var(--white);
+                    background: var(--brand-blue);
+                    padding: 15px 30px;
+                    border-radius: 4px;
+                    transition: 0.9s ease all;
+
+                    &:hover {
+                        background-color: var(--brand-primary);
+                        color: var(--white);
+
+                    }
+                }
+            }
+        }
+
+    }
+}
